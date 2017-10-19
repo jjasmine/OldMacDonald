@@ -1,6 +1,7 @@
 class Chick implements Animal {     
      private String myType;     
-     private String mySound;      
+     private String mySound;   
+     private String [] chickSound;   
      public Chick(String type, String sound)     {         
          myType = type;         
          mySound = sound;     
@@ -11,3 +12,4 @@ class Chick implements Animal {
      }      
      public String getSound(){return mySound;}     
      public String getType(){return myType;} 
+ }
